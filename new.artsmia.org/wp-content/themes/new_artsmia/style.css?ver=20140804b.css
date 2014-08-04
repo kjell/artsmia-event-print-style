@@ -132,6 +132,12 @@ body.creative-connection { background-color: #fff; }
 
 .mia_button.light:hover, .login-wrap input.light[type='submit']:hover { color: #fff; background-color: #000; border: 1px solid #000; }
 
+table { width: 100%; border-collapse: collapse; background: transparent; }
+
+table tr.even, table tr.alt, table tr:nth-of-type(even) { background: rgba(0, 0, 0, 0.05); }
+
+table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td, table tr th { padding: 0.625em; color: inherit; }
+
 /** Front page styles  These styles hail from a number of original stylesheets, as noted. */
 /* -------------------------------------------------------------------------- * From structure.css and miacolors.css -------------------------------------------------------------------------- */
 #freebug { float: right; padding: .6rem .5rem .6rem; margin: -.6rem -.5rem 0 0; color: #298658; font-family: "myriad-pro-condensed", sans-serif; background-color: #eee; transition: color, background-color .2s ease-in-out; border-radius: 2px; position: relative; z-index: 0; }
@@ -1102,8 +1108,6 @@ table tr td { padding-left: 10px; }
 
 .featured { float: left; margin-right: 20px; margin-bottom: 10px; }
 
-table tr.even, table tr.alt, table tr:nth-of-type(even) { background: #ededed; }
-
 .nodates { font-size: .9em; font-style: italic; }
 
 .cal-thumbnail-caption { margin: 0px 25px 15px 0px; float: left; }
@@ -1651,7 +1655,7 @@ body .gform_wrapper div.gform_body ul.gform_fields li.gfield.gfield_html ul, bod
 	color:#fff;
 	border-top:1px solid #ccc;
 	border-left:1px solid #ccc;
-	border-right:1px solid #ccc;	
+	border-right:1px solid #ccc;
 }
 div.slideshow-cover-outer{
 	position:absolute;
